@@ -1,1 +1,19 @@
+> apagando banco de dados atraves do comando [ drop database cadastro; ]
+>> refazer o banco de dados [ cadastro ] com atualizações
 
+> definição de 2 parametros/constraints (regras):
+>> criando um banco de dados com o padrão UTF8: [ default character set utf8 ] ->UTF8: padrão brasileiro de símbolos
+>> definindo os caracteres de um banco de dados através do comando [ default collate utf8_general_ci; ]
+
+> definindo outros tipos primitivos na nova tabela criada + configuração de caracter padrão [ default charset = utf8; ] 
+>> uso de outras regras/constraints:
+>>> not null = obrigatório preencher os dados em campos digitáveis
+>>> [ set ( ) ] ou [ enum ( ) ] = indica os valores que serão aceitos
+>>> [ 5,2 ] = 5 casas serão criadas e as 2 ultimas ficarão depois da vírgula -> [ ] [ ] [ ], [ ] [ ]
+>>> [ 3,2 ] = [ ], [ ][ ]
+>>> default "Brasil" = se não houver respostas, o padrão será [ Brasil ]
+
+> importante definir a coluna que será a chave primária da tablela -> informação que não se repete
+>> criação da coluna [ id ] com as regras [ not null ] e [ auto_increment ]
+>>> auto_incremente = irá adicionar 1 valor diferente automaticamente  para cada pessoa cadastrada
+>>> [ primary key (id) ] = definindo a coluna [ id ] como chave primária
