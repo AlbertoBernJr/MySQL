@@ -15,3 +15,5 @@
 > as colunas [ nome, idade, sexo, peso, altura e nacionalidade ] foram adicionadas a tabela [ pessoas ]
 
 > ver as informações da tabela [pessoas] através do comando: [ describe pessoas; ]
+
+ATENÇÃO: Não há chave primária, então várias pessoas/produtos iguais podem ser criados
