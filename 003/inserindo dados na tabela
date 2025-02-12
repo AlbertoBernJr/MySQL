@@ -1,0 +1,17 @@
+> comando para incluir dados dentro da tabela [ pessoas ]: [ insert into pessoas ] -> adicionar todos as colunas da tabela em uma lista -> 
+  [ (id, nome, nascimento, ... ) ] -> [ values ] -> na linha de baixo, em forma de lista, adicionar os dados que deseja inserir -> [ ("1", 
+  "Gord", "1999-01-01", ...); ] 
+>> tudo que esta entre aspas é considerado um dado
+>> formatação das datas: [ ano ] - [ mes ] - [ dia ]
+>> o [ id ] não precisa ser especificado porque ja será gerado automaticamente pela regra [ auto_increment ]
+
+> para adicionar mais pessoas é só editar as informações da lista dos dados -> ("Mar", "2000-01-01", "F", "70.5", "1.69", "brasil");
+
+> se quiser mencionar o [ id ] e a [ nacionalidade ], por na lista de dados do usuário o comando [ default ] -> (default, "Cece", "1989-01-09", 
+  "F", "70.5", "1.69", default);
+
+> adicionar vários dados ao mesmo tempo sem ter que ficar editando a lista anterior -> adicionar outras listas após a virgula -> 
+(default, "Yolanda", "1990-01-09", "F", "80.06", "1.80", "Irlanda"),
+(default, "Ricardo", "1995-01-09", "M", "78.10", "1.76", "Mexico");
+
+> mostrar toda a tabela [ pessoas ]: [ select * from pessoas; ]
