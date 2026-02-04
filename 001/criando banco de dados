@@ -1,19 +1,19 @@
-> criando banco de dados [cadastro] através do comando: [ create database cadastro; ]
+1. criando banco de dados [cadastro] através do comando: [ create database cadastro; ]
 
-> um comando em MySQL só termina quando é adicionado [ ; ] no final
+2. um comando em MySQL só termina quando é adicionado [ ; ] no final
 
-> executar o comando [ use cadastro; ] para criar uma tabela dentro do banco de dados [ cadastro ]
+3. executar o comando [ use cadastro; ] para criar uma tabela dentro do banco de dados [ cadastro ]
 
-> criar tabela [ pessoas ] pelo comando: [ create table pessoas ( ); ]
->> nome varchar(30) - variável de ate 30 caracteres
->> idade tinyint - poucos bytes
->> sexo char(1) - caractere fixo
->> peso float - numero flutuante
->> altura float - numero flutuante
->> nacionalidade varchar(20) - variável de ate 20 caracteres
+4. criar tabela [ pessoas ] pelo comando: [ create table pessoas ( ); ]
+4.1. nome varchar(30) - variável de ate 30 caracteres
+4.2. idade tinyint - poucos bytes
+4.3. sexo char(1) - caractere fixo
+4.4. peso float - numero flutuante
+4.5. altura float - numero flutuante
+4.6. nacionalidade varchar(20) - variável de ate 20 caracteres
 
-> as colunas [ nome, idade, sexo, peso, altura e nacionalidade ] foram adicionadas a tabela [ pessoas ]
+5. as colunas [ nome, idade, sexo, peso, altura e nacionalidade ] foram adicionadas a tabela [ pessoas ]
 
-> ver as informações da tabela [pessoas] através do comando: [ describe pessoas; ]
+6. ver as informações da tabela [pessoas] através do comando: [ describe pessoas; ]
 
 ATENÇÃO: Não há chave primária, então várias pessoas/produtos iguais podem ser criados
